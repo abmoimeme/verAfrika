@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VeraAfrika</title>
+  <link rel="icon" href="assets/VeraAfrika-V-mark.png">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="VeraAfrika"><img src="assets/VeraAfrika-lockup.png" alt="VeraAfrika — African Business Intelligence" width="156" height="52"></a>
+      <nav class="main-nav" id="nav" aria-label="Navigation principale"></nav>
+      <div class="header-tools">
+        <span class="who" id="who"></span>
+        <button type="button" class="btn-header" id="lang-fr" lang="fr" aria-pressed="true">FR</button>
+        <button type="button" class="btn-header" id="lang-en" lang="en" aria-pressed="false">EN</button>
+        <button type="button" class="btn-header" id="switch" hidden></button>
+      </div>
+    </div>
+  </header>
+  <div class="env-banner" role="note"><p id="env-banner"></p></div>
+  <main id="main" tabindex="-1"></main>
+  <div id="live" class="visually-hidden" role="status" aria-live="polite"></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <footer class="site-footer"><p id="footer"></p></footer>
+  <script src="app.js"></script>
+</body>
+</html>

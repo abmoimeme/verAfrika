@@ -1,0 +1,157 @@
+taxonomy_version,sector_code,sector_name,cluster_code,cluster_name,industry_code,industry_name,activity_code,activity_name,market_fit
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.01,Crop & Farm Production,VA01.01.01,Field & Staple Crops,VA01.01.01.01,Grains & Cereals,formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.01,Crop & Farm Production,VA01.01.01,Field & Staple Crops,VA01.01.01.02,"Roots, Tubers & Plantains",formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.01,Crop & Farm Production,VA01.01.02,Horticulture & Specialty Crops,VA01.01.02.01,Fruits & Vegetables,formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.01,Crop & Farm Production,VA01.01.02,Horticulture & Specialty Crops,VA01.01.02.02,"Flowers, Herbs & Specialty Produce",formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.02,"Livestock, Fisheries & Aquaculture",VA01.02.01,Livestock & Animal Products,VA01.02.01.01,Cattle & Small Ruminants,formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.02,"Livestock, Fisheries & Aquaculture",VA01.02.01,Livestock & Animal Products,VA01.02.01.02,"Poultry, Eggs & Other Animal Products",formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.02,"Livestock, Fisheries & Aquaculture",VA01.02.02,Fisheries & Aquaculture,VA01.02.02.01,Marine & Inland Fishing,formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.02,"Livestock, Fisheries & Aquaculture",VA01.02.02,Fisheries & Aquaculture,VA01.02.02.02,Fish Farming & Hatcheries,formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.03,Food Processing & Agricultural Trade,VA01.03.01,Food & Beverage Processing,VA01.03.01.01,"Milling, Baking & Packaged Foods",formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.03,Food Processing & Agricultural Trade,VA01.03.01,Food & Beverage Processing,VA01.03.01.02,"Beverages, Oils & Ingredient Processing",formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.03,Food Processing & Agricultural Trade,VA01.03.02,Agricultural Trade & Cold Chain,VA01.03.02.01,Produce Export & Aggregation,formal_and_informal
+1.0,VA01,"Agriculture, Food & Natural Products",VA01.03,Food Processing & Agricultural Trade,VA01.03.02,Agricultural Trade & Cold Chain,VA01.03.02.02,"Cold Storage, Packhouses & Quality Services",formal_and_informal
+1.0,VA02,"Energy, Water & Climate",VA02.01,Energy Generation & Fuels,VA02.01.01,Renewable Power,VA02.01.01.01,Solar & Wind Power,formal
+1.0,VA02,"Energy, Water & Climate",VA02.01,Energy Generation & Fuels,VA02.01.01,Renewable Power,VA02.01.01.02,"Hydro, Geothermal & Other Renewables",formal
+1.0,VA02,"Energy, Water & Climate",VA02.01,Energy Generation & Fuels,VA02.01.02,Transition Fuels & Thermal Power,VA02.01.02.01,Natural Gas & Thermal Generation,formal
+1.0,VA02,"Energy, Water & Climate",VA02.01,Energy Generation & Fuels,VA02.01.02,Transition Fuels & Thermal Power,VA02.01.02.02,"Biofuels, LPG & Clean Cooking",formal
+1.0,VA02,"Energy, Water & Climate",VA02.02,Power Networks & Energy Services,VA02.02.01,Electricity Networks,VA02.02.01.01,Transmission & Distribution,formal
+1.0,VA02,"Energy, Water & Climate",VA02.02,Power Networks & Energy Services,VA02.02.01,Electricity Networks,VA02.02.01.02,Mini-grids & Off-grid Systems,formal
+1.0,VA02,"Energy, Water & Climate",VA02.02,Power Networks & Energy Services,VA02.02.02,Energy Equipment & Services,VA02.02.02.01,"Power EPC, Installation & Maintenance",formal
+1.0,VA02,"Energy, Water & Climate",VA02.02,Power Networks & Energy Services,VA02.02.02,Energy Equipment & Services,VA02.02.02.02,Energy Efficiency & Management,formal
+1.0,VA02,"Energy, Water & Climate",VA02.03,"Water, Sanitation & Climate Services",VA02.03.01,Water & Sanitation,VA02.03.01.01,Water Supply & Treatment,formal
+1.0,VA02,"Energy, Water & Climate",VA02.03,"Water, Sanitation & Climate Services",VA02.03.01,Water & Sanitation,VA02.03.01.02,Sanitation & Wastewater Services,formal
+1.0,VA02,"Energy, Water & Climate",VA02.03,"Water, Sanitation & Climate Services",VA02.03.02,Climate & Environmental Services,VA02.03.02.01,Climate Advisory & Carbon Services,formal
+1.0,VA02,"Energy, Water & Climate",VA02.03,"Water, Sanitation & Climate Services",VA02.03.02,Climate & Environmental Services,VA02.03.02.02,Environmental Monitoring & Restoration,formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.01,Civil & Public Infrastructure,VA03.01.01,Civil Engineering & Public Works,VA03.01.01.01,"Roads, Bridges & Earthworks",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.01,Civil & Public Infrastructure,VA03.01.01,Civil Engineering & Public Works,VA03.01.01.02,"Water, Utility & Public Works",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.01,Civil & Public Infrastructure,VA03.01.02,Specialized Infrastructure Contracting,VA03.01.02.01,Electrical & Mechanical Contracting,formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.01,Civil & Public Infrastructure,VA03.01.02,Specialized Infrastructure Contracting,VA03.01.02.02,"Surveying, Geotechnical & Testing",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.02,Buildings & Property,VA03.02.01,Building Construction,VA03.02.01.01,Residential & Affordable Housing,formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.02,Buildings & Property,VA03.02.01,Building Construction,VA03.02.01.02,"Commercial, Industrial & Institutional Buildings",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.02,Buildings & Property,VA03.02.02,Property & Facilities,VA03.02.02.01,Real Estate Development & Brokerage,formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.02,Buildings & Property,VA03.02.02,Property & Facilities,VA03.02.02.02,"Facilities, Cleaning & Property Services",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.03,Built-Environment Inputs & Design,VA03.03.01,Construction Materials,VA03.03.01.01,"Cement, Concrete & Aggregates",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.03,Built-Environment Inputs & Design,VA03.03.01,Construction Materials,VA03.03.01.02,"Roofing, Glass, Wood & Finishing Materials",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.03,Built-Environment Inputs & Design,VA03.03.02,Architecture & Built-Environment Design,VA03.03.02.01,"Architecture, Planning & Landscape",formal
+1.0,VA03,"Construction, Housing & Built Environment",VA03.03,Built-Environment Inputs & Design,VA03.03.02,Architecture & Built-Environment Design,VA03.03.02.02,Engineering Design & Project Management,formal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.01,"Freight, Ports & Shipping",VA04.01.01,Freight & Cargo Services,VA04.01.01.01,Road Freight & Haulage,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.01,"Freight, Ports & Shipping",VA04.01.01,Freight & Cargo Services,VA04.01.01.02,Air Cargo & Express Freight,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.01,"Freight, Ports & Shipping",VA04.01.02,"Ports, Maritime & Inland Terminals",VA04.01.02.01,Port & Terminal Operations,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.01,"Freight, Ports & Shipping",VA04.01.02,"Ports, Maritime & Inland Terminals",VA04.01.02.02,Shipping Agency & Maritime Services,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.02,Mobility & Passenger Transport,VA04.02.01,Road Passenger Mobility,VA04.02.01.01,"Bus, Taxi & Ride Services",formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.02,Mobility & Passenger Transport,VA04.02.01,Road Passenger Mobility,VA04.02.01.02,Vehicle Rental & Fleet Services,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.02,Mobility & Passenger Transport,VA04.02.02,"Rail, Air & Water Passenger Services",VA04.02.02.01,Rail & Urban Transit,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.02,Mobility & Passenger Transport,VA04.02.02,"Rail, Air & Water Passenger Services",VA04.02.02.02,"Airlines, Ferries & Passenger Terminals",formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.03,Logistics Enablement & Trade Services,VA04.03.01,Warehousing & Distribution,VA04.03.01.01,Warehousing & Fulfilment,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.03,Logistics Enablement & Trade Services,VA04.03.01,Warehousing & Distribution,VA04.03.01.02,Cold Chain & Specialized Distribution,formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.03,Logistics Enablement & Trade Services,VA04.03.02,Trade Corridor Services,VA04.03.02.01,"Customs, Clearing & Forwarding",formal_and_informal
+1.0,VA04,"Transport, Logistics & Trade Corridors",VA04.03,Logistics Enablement & Trade Services,VA04.03.02,Trade Corridor Services,VA04.03.02.02,"Fleet Technology, Tracking & Logistics Advisory",formal_and_informal
+1.0,VA05,"Digital, Media & Connectivity",VA05.01,Connectivity & Digital Infrastructure,VA05.01.01,Telecommunications Networks,VA05.01.01.01,"Mobile, Fixed & Satellite Connectivity",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.01,Connectivity & Digital Infrastructure,VA05.01.01,Telecommunications Networks,VA05.01.01.02,"Fiber, Towers & Wholesale Networks",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.01,Connectivity & Digital Infrastructure,VA05.01.02,Data & Cloud Infrastructure,VA05.01.02.01,Data Centers & Edge Facilities,formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.01,Connectivity & Digital Infrastructure,VA05.01.02,Data & Cloud Infrastructure,VA05.01.02.02,"Cloud, Hosting & Managed Infrastructure",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.02,"Software, Data & Cybersecurity",VA05.02.01,Software & Digital Platforms,VA05.02.01.01,Business Software & SaaS,formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.02,"Software, Data & Cybersecurity",VA05.02.01,Software & Digital Platforms,VA05.02.01.02,"Marketplaces, Apps & Digital Services",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.02,"Software, Data & Cybersecurity",VA05.02.02,"Data, AI & Cybersecurity",VA05.02.02.01,Data Analytics & Artificial Intelligence,formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.02,"Software, Data & Cybersecurity",VA05.02.02,"Data, AI & Cybersecurity",VA05.02.02.02,"Cybersecurity, Identity & Trust Technology",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.03,"Media, Creative & Digital Commerce",VA05.03.01,Media & Content,VA05.03.01.01,"Broadcast, Publishing & News",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.03,"Media, Creative & Digital Commerce",VA05.03.01,Media & Content,VA05.03.01.02,"Film, Music, Gaming & Creator Services",formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.03,"Media, Creative & Digital Commerce",VA05.03.02,Digital Commerce & Marketing,VA05.03.02.01,E-commerce Enablement,formal
+1.0,VA05,"Digital, Media & Connectivity",VA05.03,"Media, Creative & Digital Commerce",VA05.03.02,Digital Commerce & Marketing,VA05.03.02.02,"Advertising, Marketing & Communications",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.01,"Banking, Payments & Capital",VA06.01.01,Banking & Credit,VA06.01.01.01,"Commercial, Retail & Community Banking",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.01,"Banking, Payments & Capital",VA06.01.01,Banking & Credit,VA06.01.01.02,"Microfinance, Lending & Credit Services",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.01,"Banking, Payments & Capital",VA06.01.02,Payments & Investment Services,VA06.01.02.01,"Payments, Mobile Money & Fintech",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.01,"Banking, Payments & Capital",VA06.01.02,Payments & Investment Services,VA06.01.02.02,"Capital Markets, Funds & Investment Services",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.02,Insurance & Risk,VA06.02.01,Insurance Services,VA06.02.01.01,"Life, Health & Inclusive Insurance",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.02,Insurance & Risk,VA06.02.01,Insurance Services,VA06.02.01.02,"Property, Agriculture & Commercial Insurance",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.02,Insurance & Risk,VA06.02.02,"Risk, Compliance & Assurance",VA06.02.02.01,"Audit, Tax & Accounting",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.02,Insurance & Risk,VA06.02.02,"Risk, Compliance & Assurance",VA06.02.02.02,"Compliance, Verification & Risk Advisory",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.03,Professional & Enterprise Services,VA06.03.01,Advisory & Legal Services,VA06.03.01.01,"Legal, Governance & Corporate Services",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.03,Professional & Enterprise Services,VA06.03.01,Advisory & Legal Services,VA06.03.01.02,"Management, Strategy & Development Consulting",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.03,Professional & Enterprise Services,VA06.03.02,Business Operations Services,VA06.03.02.01,"Staffing, Outsourcing & Contact Centers",formal
+1.0,VA06,"Finance, Insurance & Business Services",VA06.03,Professional & Enterprise Services,VA06.03.02,Business Operations Services,VA06.03.02.02,"Security, Procurement & Administrative Services",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.01,Care Delivery,VA07.01.01,Clinical & Hospital Services,VA07.01.01.01,"Hospitals, Clinics & Diagnostic Centers",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.01,Care Delivery,VA07.01.01,Clinical & Hospital Services,VA07.01.01.02,"Specialist, Dental & Rehabilitation Care",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.01,Care Delivery,VA07.01.02,Community & Preventive Health,VA07.01.02.01,"Primary, Maternal & Community Health",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.01,Care Delivery,VA07.01.02,Community & Preventive Health,VA07.01.02.02,"Public Health, Wellness & Prevention",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.02,Medicines & Health Products,VA07.02.01,Pharmaceuticals & Medical Supplies,VA07.02.01.01,Medicines Manufacturing & Distribution,formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.02,Medicines & Health Products,VA07.02.01,Pharmaceuticals & Medical Supplies,VA07.02.01.02,Medical Consumables & Laboratory Supplies,formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.02,Medicines & Health Products,VA07.02.02,Medical Technology & Digital Health,VA07.02.02.01,Medical Devices & Equipment,formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.02,Medicines & Health Products,VA07.02.02,Medical Technology & Digital Health,VA07.02.02.02,"Digital Health, Telemedicine & Health Data",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.03,Life Sciences & Care Support,VA07.03.01,Laboratory & Life Sciences,VA07.03.01.01,Clinical Laboratories & Testing,formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.03,Life Sciences & Care Support,VA07.03.01,Laboratory & Life Sciences,VA07.03.01.02,"Biotechnology, Research & Traditional Medicine",formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.03,Life Sciences & Care Support,VA07.03.02,Care Support Services,VA07.03.02.01,Health Logistics & Facility Support,formal
+1.0,VA07,"Health, Care & Life Sciences",VA07.03,Life Sciences & Care Support,VA07.03.02,Care Support Services,VA07.03.02.02,"Home, Elder, Disability & Mental Health Support",formal
+1.0,VA08,"Education, Skills & Workforce",VA08.01,Schools & Learning Institutions,VA08.01.01,"Early, Primary & Secondary Education",VA08.01.01.01,Early Childhood & Primary Schools,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.01,Schools & Learning Institutions,VA08.01.01,"Early, Primary & Secondary Education",VA08.01.01.02,Secondary Schools & Exam Preparation,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.01,Schools & Learning Institutions,VA08.01.02,Higher & Professional Education,VA08.01.02.01,Universities & Colleges,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.01,Schools & Learning Institutions,VA08.01.02,Higher & Professional Education,VA08.01.02.02,"Professional, Executive & Continuing Education",formal
+1.0,VA08,"Education, Skills & Workforce",VA08.02,Skills & Employment,VA08.02.01,Technical & Vocational Training,VA08.02.01.01,"Trades, Apprenticeships & TVET",formal
+1.0,VA08,"Education, Skills & Workforce",VA08.02,Skills & Employment,VA08.02.01,Technical & Vocational Training,VA08.02.01.02,"Digital, Business & Entrepreneurship Skills",formal
+1.0,VA08,"Education, Skills & Workforce",VA08.02,Skills & Employment,VA08.02.02,Employment & Workforce Services,VA08.02.02.01,Recruitment & Talent Platforms,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.02,Skills & Employment,VA08.02.02,Employment & Workforce Services,VA08.02.02.02,Workforce Development & Labor Services,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.03,Learning Technology & Support,VA08.03.01,Education Technology,VA08.03.01.01,Learning Platforms & Digital Content,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.03,Learning Technology & Support,VA08.03.01,Education Technology,VA08.03.01.02,School Management & Assessment Technology,formal
+1.0,VA08,"Education, Skills & Workforce",VA08.03,Learning Technology & Support,VA08.03.02,Education Support Services,VA08.03.02.01,"Books, Supplies & Learning Materials",formal
+1.0,VA08,"Education, Skills & Workforce",VA08.03,Learning Technology & Support,VA08.03.02,Education Support Services,VA08.03.02.02,"Tutoring, Transport & Student Services",formal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.01,Retail & Everyday Commerce,VA09.01.01,Food & Household Retail,VA09.01.01.01,"Markets, Grocers & Supermarkets",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.01,Retail & Everyday Commerce,VA09.01.01,Food & Household Retail,VA09.01.01.02,Household Goods & General Retail,formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.01,Retail & Everyday Commerce,VA09.01.02,Specialty & Digital Retail,VA09.01.02.01,"Fashion, Electronics & Specialty Stores",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.01,Retail & Everyday Commerce,VA09.01.02,Specialty & Digital Retail,VA09.01.02.02,Online Retail & Social Commerce,formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.02,"Hospitality, Food & Tourism",VA09.02.01,Accommodation & Food Service,VA09.02.01.01,"Hotels, Lodges & Guesthouses",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.02,"Hospitality, Food & Tourism",VA09.02.01,Accommodation & Food Service,VA09.02.01.02,"Restaurants, Catering & Street Food",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.02,"Hospitality, Food & Tourism",VA09.02.02,"Travel, Tourism & Events",VA09.02.02.01,Tour Operations & Destination Services,formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.02,"Hospitality, Food & Tourism",VA09.02.02,"Travel, Tourism & Events",VA09.02.02.02,"Events, Conferences & Cultural Experiences",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.03,Personal & Household Services,VA09.03.01,Personal Services,VA09.03.01.01,"Beauty, Wellness & Personal Care",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.03,Personal & Household Services,VA09.03.01,Personal Services,VA09.03.01.02,"Laundry, Repair & Household Services",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.03,Personal & Household Services,VA09.03.02,Sports & Recreation,VA09.03.02.01,"Fitness, Sports & Recreation",formal_and_informal
+1.0,VA09,"Consumer, Retail, Tourism & Hospitality",VA09.03,Personal & Household Services,VA09.03.02,Sports & Recreation,VA09.03.02.02,Entertainment Venues & Leisure Services,formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.01,General Manufacturing,VA10.01.01,Consumer & Light Manufacturing,VA10.01.01.01,"Textiles, Apparel & Footwear",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.01,General Manufacturing,VA10.01.01,Consumer & Light Manufacturing,VA10.01.01.02,"Furniture, Household Goods & Packaging",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.01,General Manufacturing,VA10.01.02,Industrial Manufacturing,VA10.01.02.01,"Machinery, Equipment & Components",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.01,General Manufacturing,VA10.01.02,Industrial Manufacturing,VA10.01.02.02,"Electrical, Electronics & Appliance Manufacturing",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.02,Industrial Services & Supply,VA10.02.01,Industrial Distribution,VA10.02.01.01,"Equipment, Tools & Spare Parts",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.02,Industrial Services & Supply,VA10.02.01,Industrial Distribution,VA10.02.01.02,"Chemicals, Lubricants & Industrial Inputs",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.02,Industrial Services & Supply,VA10.02.02,Maintenance & Production Services,VA10.02.02.01,Industrial Maintenance & Repair,formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.02,Industrial Services & Supply,VA10.02.02,Maintenance & Production Services,VA10.02.02.02,"Fabrication, Welding & Contract Production",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.03,Advanced & Local Production,VA10.03.01,Mobility & Equipment Assembly,VA10.03.01.01,"Vehicle, Motorcycle & Equipment Assembly",formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.03,Advanced & Local Production,VA10.03.01,Mobility & Equipment Assembly,VA10.03.01.02,Mobility Parts & Component Production,formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.03,Advanced & Local Production,VA10.03.02,Local Value-Addition Manufacturing,VA10.03.02.01,Agro-industrial Value Addition,formal_and_informal
+1.0,VA10,Manufacturing & Industrial Supply,VA10.03,Advanced & Local Production,VA10.03.02,Local Value-Addition Manufacturing,VA10.03.02.02,Small-batch & Distributed Manufacturing,formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.01,Mining & Extraction,VA11.01.01,Metals & Minerals,VA11.01.01.01,"Gold, Precious & Base Metals",formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.01,Mining & Extraction,VA11.01.01,Metals & Minerals,VA11.01.01.02,Industrial Minerals & Quarrying,formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.01,Mining & Extraction,VA11.01.02,Mining Services,VA11.01.02.01,"Exploration, Drilling & Geological Services",formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.01,Mining & Extraction,VA11.01.02,Mining Services,VA11.01.02.02,"Mine Operations, Equipment & Site Services",formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.02,Materials Processing & Trade,VA11.02.01,Metals & Mineral Processing,VA11.02.01.01,"Smelting, Refining & Mineral Beneficiation",formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.02,Materials Processing & Trade,VA11.02.01,Metals & Mineral Processing,VA11.02.01.02,Metal Products & Foundries,formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.02,Materials Processing & Trade,VA11.02.02,Materials Trading & Supply,VA11.02.02.01,Mineral & Metals Trading,formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.02,Materials Processing & Trade,VA11.02.02,Materials Trading & Supply,VA11.02.02.02,Construction and Industrial Material Supply,formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.03,"Waste, Recovery & Circular Production",VA11.03.01,Waste Collection & Treatment,VA11.03.01.01,Municipal & Commercial Waste Services,formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.03,"Waste, Recovery & Circular Production",VA11.03.01,Waste Collection & Treatment,VA11.03.01.02,"Hazardous, Medical & Industrial Waste",formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.03,"Waste, Recovery & Circular Production",VA11.03.02,Recycling & Resource Recovery,VA11.03.02.01,"Plastics, Metals, Paper & E-waste Recycling",formal_and_informal
+1.0,VA11,"Mining, Materials & Circular Economy",VA11.03,"Waste, Recovery & Circular Production",VA11.03.02,Recycling & Resource Recovery,VA11.03.02.02,"Repair, Reuse & Circular Product Services",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.01,Public Administration & Civic Systems,VA12.01.01,Government & Public Agencies,VA12.01.01.01,National & Local Government Services,formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.01,Public Administration & Civic Systems,VA12.01.01,Government & Public Agencies,VA12.01.01.02,Public Authorities & State-Owned Services,formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.01,Public Administration & Civic Systems,VA12.01.02,Civic Technology & Public Delivery,VA12.01.02.01,Digital Government & Civic Platforms,formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.01,Public Administration & Civic Systems,VA12.01.02,Civic Technology & Public Delivery,VA12.01.02.02,Public Program Delivery & Technical Assistance,formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.02,Development & Social Impact,VA12.02.01,Development Organizations,VA12.02.01.01,"NGOs, Foundations & Community Organizations",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.02,Development & Social Impact,VA12.02.01,Development Organizations,VA12.02.01.02,"Multilateral, Bilateral & Program Units",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.02,Development & Social Impact,VA12.02.02,Social Enterprise & Inclusion,VA12.02.02.01,"Livelihoods, Youth & Women-led Enterprise Support",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.02,Development & Social Impact,VA12.02.02,Social Enterprise & Inclusion,VA12.02.02.02,"Humanitarian, Refugee & Inclusion Services",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.03,"Community, Culture & Faith Services",VA12.03.01,Community & Membership Organizations,VA12.03.01.01,"Cooperatives, Associations & Chambers",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.03,"Community, Culture & Faith Services",VA12.03.01,Community & Membership Organizations,VA12.03.01.02,Faith-based & Community Institutions,formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.03,"Community, Culture & Faith Services",VA12.03.02,"Culture, Heritage & Public Recreation",VA12.03.02.01,"Museums, Heritage & Cultural Institutions",formal_and_informal
+1.0,VA12,"Public, Social & Community Systems",VA12.03,"Community, Culture & Faith Services",VA12.03.02,"Culture, Heritage & Public Recreation",VA12.03.02.02,"Libraries, Parks & Public Recreation",formal_and_informal
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.01,Neighborhood Trade & Services,VA13.01.01,Informal & Micro Retail,VA13.01.01.01,Market Stalls & Kiosks,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.01,Neighborhood Trade & Services,VA13.01.01,Informal & Micro Retail,VA13.01.01.02,Street Vendors & Mobile Sellers,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.01,Neighborhood Trade & Services,VA13.01.02,Household & Neighborhood Services,VA13.01.02.01,"Domestic, Care & Household Services",informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.01,Neighborhood Trade & Services,VA13.01.02,Household & Neighborhood Services,VA13.01.02.02,Local Repair & Maintenance Services,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.02,Artisan & Microproduction,VA13.02.01,Crafts & Cultural Goods,VA13.02.01.01,"Textile, Leather & Wood Crafts",informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.02,Artisan & Microproduction,VA13.02.01,Crafts & Cultural Goods,VA13.02.01.02,"Jewelry, Art & Decorative Crafts",informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.02,Artisan & Microproduction,VA13.02.02,Small-scale Food Production,VA13.02.02.01,Home and Community Food Processing,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.02,Artisan & Microproduction,VA13.02.02,Small-scale Food Production,VA13.02.02.02,Community Catering & Prepared Foods,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.03,Transitioning & Emerging Activity,VA13.03.01,Registration & Formalization in Progress,VA13.03.01.01,Enterprise Registration in Progress,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.03,Transitioning & Emerging Activity,VA13.03.01,Registration & Formalization in Progress,VA13.03.01.02,Cooperative or Group Formation in Progress,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.03,Transitioning & Emerging Activity,VA13.03.02,Mixed or Not Yet Classified Activity,VA13.03.02.01,Multi-activity Microenterprise,informal_or_transition
+1.0,VA13,"Local, Informal & Emerging Enterprise",VA13.03,Transitioning & Emerging Activity,VA13.03.02,Mixed or Not Yet Classified Activity,VA13.03.02.02,Emerging Activity Pending Classification,informal_or_transition

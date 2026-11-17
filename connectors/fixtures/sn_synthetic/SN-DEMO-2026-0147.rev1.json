@@ -1,0 +1,45 @@
+{
+  "_fixture_notice": "DONNÉES DE TEST SYNTHÉTIQUES — avis fictif, aucune autorité réelle. Synthetic test data — fictional notice.",
+  "avis_id": "SN-DEMO-2026-0147",
+  "reference": "AOO n°DEMO-014/2026",
+  "objet": "Fourniture et installation de systèmes de pompage solaire pour 12 forages ruraux",
+  "autorite_contractante": "Agence de démonstration pour l'hydraulique rurale (fictive)",
+  "type_procedure": "Appel d'offres ouvert",
+  "date_publication": "10/11/2026",
+  "date_limite_depot": "15/12/2026 10:00",
+  "fuseau_horaire": "GMT",
+  "lieu_execution": "Régions de Kaffrine et Kaolack",
+  "lots": [
+    {
+      "numero": 1,
+      "intitule": "Kaffrine — 7 forages",
+      "garantie_soumission_xof": 4500000
+    },
+    {
+      "numero": 2,
+      "intitule": "Kaolack — 5 forages",
+      "garantie_soumission_xof": 3200000
+    }
+  ],
+  "criteres_qualification": [
+    "RCCM en cours de validité",
+    "Au moins 2 marchés similaires au cours des 5 dernières années",
+    "Expérience en installation de pompage solaire"
+  ],
+  "pays_eligibles": [
+    "SN",
+    "BJ",
+    "BF",
+    "CI",
+    "GW",
+    "ML",
+    "NE",
+    "TG"
+  ],
+  "activite_source": "Hydraulique rurale / Énergie solaire",
+  "montant_estime_xof": 450000000,
+  "langue": "fr",
+  "contact_nom": "Personne fictive",
+  "contact_telephone": "+221 00 000 00 00",
+  "additif": null
+}

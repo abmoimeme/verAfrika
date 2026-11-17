@@ -1,0 +1,29 @@
+# Render Blueprint — VeraAfrika pilot staging.
+# Region is a placeholder pending the hosting-region decision (LLD §10.1 HOSTING_REGION, counsel review).
+databases:
+  - name: verafrika-staging-db
+    databaseName: verafrika
+    user: verafrika
+    plan: basic-256mb
+    region: frankfurt
+    postgresMajorVersion: "16"
+    ipAllowList: []          # private network only; no public database access
+
+services:
+  - type: web
+    name: verafrika-staging
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    region: frankfurt
+    healthCheckPath: /healthz
+    autoDeploy: false        # deploy deliberately (CLAUDE.md: no deploy without approval)
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: verafrika-staging-db
+          property: connectionString
+      - key: VERAFRIKA_ENV
+        value: staging
+      - key: PUBLIC_BASE_URL
+        sync: false          # set to the service URL after the first deploy, e.g. https://verafrika-staging.onrender.com
