@@ -105,7 +105,7 @@ gcloud run deploy "$SERVICE" --image "$IMAGE" --region "$REGION" --service-accou
   --allow-unauthenticated
 RUN_URL="$(gcloud run services describe "$SERVICE" --region "$REGION" --format='value(status.url)')"
 for i in 1 2 3 4 5 6; do
-  if curl -fsS "$RUN_URL/healthz"; then echo; break; fi
+  if curl -fsS "$RUN_URL/health"; then echo; break; fi
   [ "$i" = 6 ] && fail "Health check failed. Logs: gcloud run services logs read $SERVICE --region $REGION --limit 50"
   sleep 10
 done
@@ -121,7 +121,7 @@ Firebase Hosting was not deployed (usually: the Firebase CLI isn't signed in yet
 EOF
   exit 1
 fi
-curl -fsS "$PUBLIC_URL/healthz" && echo
+curl -fsS "$PUBLIC_URL/health" && echo
 
 cat <<EOF
 

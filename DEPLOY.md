@@ -24,7 +24,7 @@ Architecture: **Firebase Hosting** (`https://verafrika.web.app`) → **Cloud Run
    3. Creates Cloud SQL (PostgreSQL 16, db-f1-micro, daily backups, point-in-time recovery, deletion protection).
    4. Stores the connection string in Secret Manager.
    5. Creates a dedicated service account with only Cloud SQL Client and Secret Accessor.
-   6. Deploys Cloud Run (maximum 1 instance, scales to zero) and checks `/healthz`.
+   6. Deploys Cloud Run (maximum 1 instance, scales to zero) and checks `/health`.
    7. Deploys Firebase Hosting.
 3. If the Firebase CLI asks you to sign in, run the two commands it prints (`firebase login --no-localhost`, then the deploy).
 4. Re-running the script is safe. It reuses existing resources, builds a new image from the current commit and rolls it out.

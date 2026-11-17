@@ -79,6 +79,8 @@ async def security(request: Request, call_next):
     return resp
 
 
+# Cloud Run reserves some paths ending in "z" (including /healthz), so /health is the probe used in production.
+@app.get("/health")
 @app.get("/healthz")
 def healthz():
     with connect() as conn:

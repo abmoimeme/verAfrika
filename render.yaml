@@ -16,7 +16,7 @@ services:
     dockerfilePath: ./Dockerfile
     plan: starter
     region: frankfurt
-    healthCheckPath: /healthz
+    healthCheckPath: /health
     autoDeploy: false        # deploy deliberately (CLAUDE.md: no deploy without approval)
     envVars:
       - key: DATABASE_URL

@@ -98,8 +98,9 @@ def test_logout_ends_session(client):
 
 
 def test_security_headers(client):
-    r = client.get("/healthz")
+    r = client.get("/health")
     assert r.json()["status"] == "ok"
+    assert client.get("/healthz").json()["status"] == "ok"  # kept for local and Render use
     for h in ("content-security-policy", "x-content-type-options", "x-frame-options", "referrer-policy"):
         assert h in r.headers, h
 
