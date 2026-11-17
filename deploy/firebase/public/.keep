@@ -1,0 +1,1 @@
+Intentionally empty: Firebase Hosting forwards every request to the Cloud Run service (see firebase.json).

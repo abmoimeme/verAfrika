@@ -136,3 +136,22 @@ def test_reset_with_mfa_requires_new_authenticator(client):
     client.cookies.clear()
     r = client.post(f"/v1/auth/invites/{tok}/accept", json={"password": "lost my phone passphrase"}, headers=ORIGIN)
     assert r.json()["mfa"] == "setup"
+
+
+def test_session_cookie_name_survives_firebase_hosting(client):
+    r = accept(client, invite("cookie@client.example", "org_sahel", "owner"))
+    assert r.headers["set-cookie"].startswith("__session=")
+
+
+def test_origin_check_accepts_configured_front_end_domain(client, published, monkeypatch):
+    """Firebase Hosting → Cloud Run: Host is the run.app address, Origin is the web.app domain."""
+    opp_id, _ = published
+    accept(client, invite("fb@client.example", "org_sahel", "owner"))
+    run_host = {"Host": "verafrika-staging-abc-ew.a.run.app"}
+    r = client.put(f"/v1/opportunities/{opp_id}/saved", headers={**run_host, "Origin": "https://verafrika.web.app"})
+    assert r.status_code == 403
+    monkeypatch.setenv("VERAFRIKA_ALLOWED_HOSTS", "verafrika.web.app,verafrika.firebaseapp.com")
+    r = client.put(f"/v1/opportunities/{opp_id}/saved", headers={**run_host, "Origin": "https://verafrika.web.app"})
+    assert r.status_code == 200
+    r = client.put(f"/v1/opportunities/{opp_id}/saved", headers={**run_host, "Origin": "https://verafrika.web.app.evil.example"})
+    assert r.status_code == 403

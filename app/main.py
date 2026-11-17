@@ -29,7 +29,8 @@ async def lifespan(_app):
 
 app = FastAPI(title="VeraAfrika API", version="0.2.0-staging", lifespan=lifespan,
               docs_url="/docs" if DEV else None, redoc_url=None, openapi_url="/openapi.json" if DEV else None)
-COOKIE = "va_session"
+# Firebase Hosting forwards only a cookie named "__session" to Cloud Run, so the session cookie uses that name.
+COOKIE = "__session"
 SAFE_METHODS = {"GET", "HEAD", "OPTIONS"}
 
 CSP = ("default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; "
@@ -44,13 +45,24 @@ def _client_ip(request: Request) -> str:
     return request.client.host if request.client else "unknown"
 
 
+def _allowed_hosts(request: Request) -> set[str]:
+    """Hosts a cookie-authenticated write may come from: this request's Host, the public URL, and any configured
+    front-end domains (Firebase Hosting reaches Cloud Run under the run.app host, not the browser's domain)."""
+    hosts = {request.headers.get("host", "").lower()}
+    public = os.environ.get("PUBLIC_BASE_URL", "")
+    if "://" in public:
+        hosts.add(public.split("://", 1)[1].split("/", 1)[0].lower())
+    hosts |= {h.strip().lower() for h in os.environ.get("VERAFRIKA_ALLOWED_HOSTS", "").split(",") if h.strip()}
+    hosts.discard("")
+    return hosts
+
+
 @app.middleware("http")
 async def security(request: Request, call_next):
     # Cookie-authenticated writes must come from this site (CSRF defence in addition to SameSite cookies).
     if request.method not in SAFE_METHODS and request.cookies.get(COOKIE) and not request.headers.get("authorization"):
         origin = request.headers.get("origin") or request.headers.get("referer", "")
-        host = request.headers.get("host", "")
-        if not origin or origin.split("://", 1)[-1].split("/", 1)[0] != host:
+        if not origin or origin.split("://", 1)[-1].split("/", 1)[0].lower() not in _allowed_hosts(request):
             return JSONResponse(status_code=403, content={"error": {"code": "permission_denied", "message": "Cross-site request blocked.",
                                                                     "reason": "origin_mismatch"}})
     resp = await call_next(request)

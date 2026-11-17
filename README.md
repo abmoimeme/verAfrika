@@ -46,7 +46,7 @@ VERAFRIKA_ENV=development uvicorn app.main:app --port 8077
 
 ## Put it online (pilot staging)
 
-See **[DEPLOY.md](DEPLOY.md)**. One container serves the API and the UI. `render.yaml` provisions it on Render with private PostgreSQL. Staging uses invite-only sign-in, with an authenticator app required for VeraAfrika staff. The development profile picker and API docs are off. People are onboarded with `python -m app.cli create-org | invite | reset-access`.
+See **[DEPLOY.md](DEPLOY.md)**. One container serves the API and the UI. The chosen route is the Firebase project `verafrika`: `bash deploy/gcp/deploy.sh` in Google Cloud Shell deploys Cloud Run + Cloud SQL PostgreSQL 16 in europe-west1 behind Firebase Hosting. `render.yaml` is kept as an alternative. Staging uses invite-only sign-in, with an authenticator app required for VeraAfrika staff. The development profile picker and API docs are off. People are onboarded with `create-org`, `invite` and `reset-access` (`bash deploy/gcp/cli.sh …` on Google Cloud).
 
 ## Tests
 
@@ -65,7 +65,7 @@ VERAFRIKA_E2E_URL=http://localhost:8077 AXE_PATH=node_modules/axe-core/axe.min.j
 | Discover sees source name and observation date, but not the source link; Compete+ gets the link and record fingerprint | LLD §5.1 / `source.provenance` in Compete | Product |
 | Raw records keep the issuer's contact fields for analysts; customers never receive them (not in `allowed_fields`) | LLD §7 permits raw preservation; contacts need rights review | Counsel + security |
 | Development uses a profile picker. Staging uses invite-only email + password (scrypt), with TOTP required for staff. A managed OIDC provider remains the target | LLD §10, HLA §11 | Technical lead + security |
-| Staging region placeholder: Frankfurt (`render.yaml`). Pilot accounts are personal data | LLD §10.1 `HOSTING_REGION` | Technical lead + counsel |
+| Staging region: europe-west1, Belgium (Firebase project; `render.yaml` alternative uses Frankfurt). Pilot accounts are personal data | LLD §10.1 `HOSTING_REGION` | Technical lead + counsel |
 
 ## Not built yet
 
